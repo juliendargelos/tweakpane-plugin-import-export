@@ -1,5 +1,8 @@
 # Tweakpane plugin Import / Export
 
+[![build](https://github.com/juliendargelos/tweakpane-plugin-import-export/actions/workflows/build.yml/badge.svg)](https://github.com/juliendargelos/tweakpane-plugin-import-export/actions/workflows/build.yml)
+[![release](https://github.com/juliendargelos/tweakpane-plugin-import-export/actions/workflows/release.yml/badge.svg)](https://github.com/juliendargelos/tweakpane-plugin-import-export/actions/workflows/release.yml)
+
 Plugin that provides a user interface to import / export values within [Tweakpane](https://github.com/cocopon/tweakpane).
 
 <br>
