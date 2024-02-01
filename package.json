@@ -1,0 +1,33 @@
+{
+  "name": "tweakpane-plugin-import-export",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "juliendargelos/tweakpane-plugin-import-export",
+  "homepage": "https://github.com/juliendargelos/tweakpane-plugin-import-export#readme",
+  "issues": "https://github.com/juliendargelos/tweakpane-plugin-import-export/issues",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "author": "Julien Dargelos <hello@julien.gl>",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "release": "semantic-release"
+  },
+  "devDependencies": {
+    "@tweakpane/core": "^2.0.3",
+    "semantic-release": "^23.0.0",
+    "tweakpane": "^4.0.3",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "vite-plugin-dts": "^3.7.2"
+  },
+  "peerDependencies": {
+    "tweakpane": "^4.0.3"
+  }
+}
