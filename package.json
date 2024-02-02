@@ -19,8 +19,10 @@
     "preview": "vite preview",
     "release": "semantic-release"
   },
+  "dependencies": {
+    "@tweakpane/core": "^2.0.3"
+  },
   "devDependencies": {
-    "@tweakpane/core": "^2.0.3",
     "semantic-release": "^23.0.0",
     "tweakpane": "^4.0.3",
     "typescript": "^5.2.2",

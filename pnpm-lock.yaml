@@ -4,10 +4,12 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-devDependencies:
+dependencies:
   '@tweakpane/core':
     specifier: ^2.0.3
     version: 2.0.3
+
+devDependencies:
   semantic-release:
     specifier: ^23.0.0
     version: 23.0.0(typescript@5.2.2)
@@ -722,7 +724,7 @@ packages:
 
   /@tweakpane/core@2.0.3:
     resolution: {integrity: sha512-qHci4XA1Wngpwy8IzsLh5JEdscz8aDti/9YhyOaq01si+cgNDaZfwzTtXdn1+xTxSnCM+pW4Zb2/4eqn+K1ATw==}
-    dev: true
+    dev: false
 
   /@types/argparse@1.0.38:
     resolution: {integrity: sha512-ebDJ9b0e702Yr7pWgB0jzm+CX4Srzz8RcXtLJDJB+BSccqMa36uyH/zUsSYao5+BD1ytv3k3rPYCq4mAE1hsXA==}
